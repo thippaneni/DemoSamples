@@ -1,0 +1,6 @@
+@ObjectLifecycle_HostAddress = http://localhost:5178
+
+GET {{ObjectLifecycle_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
