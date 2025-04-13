@@ -5,7 +5,7 @@ Console.WriteLine("Wlcome to Record Vs Class Demo");
 
 var person1 = new Person("John", 21);
 var person2 = new Person("John", 21);
-//var person3 = person1 with { Age = 30 };
+var person3 = person1 with { Age = 30 };
 
 var customer1 = new Customer { Name = "John", Age = 21 };
 var customer2 = new Customer { Name = "John", Age = 21 };

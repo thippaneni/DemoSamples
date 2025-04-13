@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectLifecycle", "ObjectLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordVsClass", "RecordVsClass\RecordVsClass.csproj", "{0CD3DD63-5243-4BEF-8B2A-AF1F29A0BF1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApi", "SecureApi\SecureApi.csproj", "{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0CD3DD63-5243-4BEF-8B2A-AF1F29A0BF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD3DD63-5243-4BEF-8B2A-AF1F29A0BF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CD3DD63-5243-4BEF-8B2A-AF1F29A0BF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
