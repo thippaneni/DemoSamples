@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordVsClass", "RecordVsCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApi", "SecureApi\SecureApi.csproj", "{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApiMvcClient", "SecureApiMvcClient\SecureApiMvcClient.csproj", "{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81EA4FF1-2F10-4D51-9F9C-731A86C025CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
