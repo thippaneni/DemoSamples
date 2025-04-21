@@ -14,13 +14,13 @@ namespace CSharpBasics.Oops.Polymorphism
             public virtual void Display() => Console.WriteLine("Base class method");
         }        
 
-        public class Child : Base
+        public class Child : Base // Method Overriding
         {
             public override void Display() => Console.WriteLine("Child class method");
             
         }
 
-        public class AnotherChild : Base
+        public class AnotherChild : Base // Method hiding
         {
             public new void Display() => Console.WriteLine("AnotherChild class method");
         }
