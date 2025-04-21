@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApi", "SecureApi\Secu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApiMvcClient", "SecureApiMvcClient\SecureApiMvcClient.csproj", "{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{86516EBA-AEDE-406B-A2E8-CE370BA89BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasics\CSharpBasics.csproj", "{5CC31B35-6552-00E6-2646-D2566B57DF05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE860367-FE2E-4603-AFD0-7AB5D8EC7C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86516EBA-AEDE-406B-A2E8-CE370BA89BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86516EBA-AEDE-406B-A2E8-CE370BA89BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86516EBA-AEDE-406B-A2E8-CE370BA89BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86516EBA-AEDE-406B-A2E8-CE370BA89BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
