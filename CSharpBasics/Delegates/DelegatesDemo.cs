@@ -24,6 +24,7 @@ namespace CSharpBasics.Delegates
             OrderHandler orderHandler = processOrder.StartOrder; // single delegate
             orderHandler += processOrder.CompleteOrder; // Multicast delegate
             Guid orderId = Guid.NewGuid();
+            
             orderHandler(orderId); // hanldes both Start and Complete order
         }
     }
