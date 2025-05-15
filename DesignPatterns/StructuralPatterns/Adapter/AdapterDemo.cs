@@ -8,7 +8,7 @@ namespace DesignPatterns.StructuralPatterns.Adapter
 {
     // Purpose: Convert the interface of a class into another interface that clients expect    
     // Real-time Usage: Adapting a legacy system to a new interface, e.g., converting a file format.
-    // External Paymentgateways , Adapting third-party gateway to our system
+    // External Paymentgateways , Adapting third-party gateway to our system    
     public class ModernSystem() : IModernSystem
     {
         private readonly LegacySystem _legacy = new LegacySystem();

@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.StructuralPatterns.Facade
 {
+    // Facade Pattern provides a simplified interface to a complex subsystem
+    // It hides internal complexity and exposes only what’s necessary to the client.
     public class OrderFacade
     {
         private readonly InventoryService _inventory;

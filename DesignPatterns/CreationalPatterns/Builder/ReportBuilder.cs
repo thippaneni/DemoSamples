@@ -13,14 +13,14 @@ namespace DesignPatterns.CreationalPatterns.Builder
         private Report _report = new();
 
         public ReportBuilder AddTitle(string title)
-        {
-            _report.Title = title;
+        {            
+            _report.Title = $"Report Title: {title}";
             return this;
         }
 
         public ReportBuilder AddContent(string content)
         {
-            _report.Content = content;
+            _report.Content = $"Report Content: {content}";
             return this;
         }
 

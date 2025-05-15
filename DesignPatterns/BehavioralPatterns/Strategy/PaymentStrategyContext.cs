@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.BehavioralPatterns.Strategy
 {
+    // Strategy Pattern allows you to define a family of algorithms, encapsulate each one, and make them interchangeable at runtime
+    // It promotes Open/Closed Principle
     public class PaymentStrategyContext
     {
         private IPaymentStrategy _strategy;

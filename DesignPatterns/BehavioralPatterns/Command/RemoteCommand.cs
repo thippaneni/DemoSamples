@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.BehavioralPatterns.Command
 {
+
+    // The Command Pattern encapsulates a request as an object, thereby allowing you to parameterize clients with queues, requests, and operations.
+    // Encapsulate an action as an object
+    // Allows delayed execution, undo/redo, logging, queueing, and batch processing
     public class RemoteCommand
     {
         private readonly List<ICommand> _commands = [];

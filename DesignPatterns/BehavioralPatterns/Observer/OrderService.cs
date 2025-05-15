@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.BehavioralPatterns.Observer
 {
+    // The Observer Pattern is used to build a one-to-many relationship between objects:
+    // One Subject(Publisher) notifies many Observers(Subscribers) automatically whenever its state changes.
     public class OrderService
     {
         private readonly List<IOrderObserver> _observers = [];
@@ -29,7 +31,7 @@ namespace DesignPatterns.BehavioralPatterns.Observer
 
     public interface IOrderObserver
     {
-        void OnOrderPlaced(string orderId);
+        void OnOrderPlaced(string orderId);        
     }
     public class EmailNotification : IOrderObserver
     {

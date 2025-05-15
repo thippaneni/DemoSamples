@@ -46,12 +46,15 @@ Console.WriteLine("4. Builder");
 ReportBuilder reportBuilder = new();
 reportBuilder.AddTitle("Monthly Report");
 reportBuilder.AddContent("This is the content of the report.");
+
+
 var report = reportBuilder.Build();
-Console.WriteLine($"Report Title: {report.Title}");
-Console.WriteLine($"Report Content: {report.Content}");
+Console.WriteLine(report.Title);
+Console.WriteLine(report.Content);
 
 Console.WriteLine("======================================================");
 Console.WriteLine("5. Adapter Pattern");
+
 ModernSystem system = new();
 system.Request();
 
@@ -69,11 +72,16 @@ newhotelService.CreateHotel("New Deluxe Hotel");
 Console.WriteLine("======================================================");
 
 Console.WriteLine("7. Facade Pattern");
+
 var orderFacade = new OrderFacade();
 orderFacade.PlaceOrder("P123", "U456", "user@example.com", 2500);
+
+
 Console.WriteLine("======================================================");
 Console.WriteLine("8. Strategy Pattern");
+
 var context = new PaymentStrategyContext();
+
 context.SetStrategy(new CreditCardPayment());
 context.ExecutePayment(1000);
 
